@@ -14,6 +14,7 @@ public class MovieBookingSystem {
     private static int loggedInUserId;
     private static String selectedShowtime;
 
+    
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> {
             movies = DatabaseManager.getMovies();
